@@ -1,22 +1,92 @@
-- Clerk Authentication
-- PlanetScaler Database (My SQL)
-- Shadcn-ui
-- cloudinary
-- next-cloudinary
 
-* npx prisma init -y
-* npx prisma generate
-* npx prisma db push
-* npx prisma migrate reset
-* npx prisma db push --preview-feature
+# E-commerce-dashboard
 
-* stripe login
+It is a dashboard for E-commerce-store.
+## Authors
 
-~ https://stackoverflow.com/questions/16073603/how-to-update-each-dependency-in-package-json-to-the-latest-version
+- [UJKC](https://www.github.com/UJKC)
 
-~ https://www.google.com/search?q=update+latest+version+npm+package+in+react&rlz=1C1ONGR_enIN1051IN1051&ei=keGwZI-GL4az4-EPr9ud0Ao&ved=0ahUKEwjPkqrvv42AAxWG2TgGHa9tB6oQ4dUDCA8&uact=5&oq=update+latest+version+npm+package+in+react&gs_lp=Egxnd3Mtd2l6LXNlcnAiKnVwZGF0ZSBsYXRlc3QgdmVyc2lvbiBucG0gcGFja2FnZSBpbiByZWFjdDIFECEYoAEyBRAhGKABSK5bUABYlllwAngBkAEAmAGmAqABiSiqAQYzLjMxLjK4AQPIAQD4AQGoAgrCAgcQABiKBRhDwgIREC4YgAQYsQMYgwEYxwEY0QPCAhYQABgDGI8BGOoCGLQCGIwDGOUC2AEBwgIWEC4YAxiPARjqAhi0AhiMAxjlAtgBAcICGBAAGAMYjwEY6gIYtAIYChiMAxjlAtgBAcICCBAAGIoFGJECwgILEAAYgAQYsQMYgwHCAgsQABiKBRixAxiDAcICBRAAGIAEwgINEAAYigUYsQMYgwEYQ8ICCBAAGIAEGLEDwgIGEAAYFhgewgIIEAAYigUYhgPCAggQABgIGB4YDcICCBAhGBYYHhgdwgIHECEYoAEYCuIDBBgAIEGIBgG6BgQIARgK&sclient=gws-wiz-serp
 
-`npm i -g npm-check-updates`
-`ncu -u`
-`npm i`
-`npm i npm-check-updates -u`
+## Tech Stack
+
+**Next.js:** Javascript Framework
+
+**Clerk:** Authentication
+
+**Stripe:** Payment
+
+**Clodinary:** Image storage
+
+**Tailwind CSS & Shadcn UI:** UI components
+
+**Prisma ORM:** Database Relation
+
+**Vercel:** Hosting
+
+
+
+
+
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`DATABASE_URL`
+
+`NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY`
+
+`CLERK_SECRET_KEY`
+
+`NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME`
+
+`STRIPE_API_KEY`
+
+`FRONTEND_STORE_URL`
+
+`STRIPE_WEBHOOK_SECRET`
+
+
+## Features
+
+- Light/dark mode toggle
+- Live previews
+- Full Analysis of sales with stripe
+- Performant dashboard
+- Professional Athentication
+- Full Integration with Store
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone https://github.com/UJKC/E-commerce-dashboard.git
+```
+
+Go to the project directory
+
+```bash
+  cd E-commerce-dashboard
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+
+Add .env file
+```bash
+  (Add an .env file with above .env documentation)
+```
+
+Start the server
+
+```bash
+  npm run dev
+```
+
+
+## Support
+
+For support, email ujwalkcsps@gmail.com
